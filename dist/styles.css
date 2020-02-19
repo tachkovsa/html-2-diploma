@@ -88,6 +88,11 @@ figure {
     width: 179px;
 }
 
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+
 .menu-list {
     font-size: 13px;
 }
