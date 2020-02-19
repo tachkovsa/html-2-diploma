@@ -49,6 +49,8 @@ figure {
 
 /* Header */
 .header {
+    display: flex;
+    flex-direction: column;
     position: relative;
     background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg");
     background-repeat: no-repeat;
@@ -108,10 +110,10 @@ figure {
 
 .welcome {
     display: flex;
+    flex-grow: 1;
     align-items: center;
     justify-content: center;
     width: 742px;
-    margin-top: 70px;
     padding: 0;
 }
 
