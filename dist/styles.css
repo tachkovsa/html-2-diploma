@@ -32,7 +32,7 @@ a {
     text-decoration: none;
 }
 
-figure {
+p {
     margin: 0;
 }
 
@@ -61,7 +61,6 @@ figure {
     color: #ffffff;
     padding-top: 28px;
     box-sizing: border-box;
-    min-height: 450px;
 }
 
 .header::after {
@@ -109,11 +108,8 @@ figure {
 }
 
 .welcome {
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    justify-content: center;
     width: 742px;
+    margin: 80px auto;
     padding: 0;
 }
 
@@ -162,19 +158,18 @@ figure {
 }
 
 .article .article-tags {
-    margin: 0 0 0 -19px;
     font-size: 14px;
     font-weight: bold;
     color: #b59f5b;
 }
 .article .article-tags .article-tag {
-    margin-left: 19px;
+    margin: 0 19px 19px 0;
     display: inline-block;
     text-transform: uppercase;
 }
 
 .article .article-title {
-    margin: 15px 0 0 0;
+    margin: 0;
     text-transform: uppercase;
     font-size: 20px;
     line-height: 24px;

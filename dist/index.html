@@ -9,7 +9,9 @@
 <body>
     <header class="header">
         <div class="header-container">
-            <img class="header-logo" src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" alt="NOEMI">
+            <a href="">
+                <img class="header-logo" src="https://netology-code.github.io/html-2-diploma/sources/images/noemi-logo.svg" alt="NOEMI">
+            </a>
             <nav class="header-menu">
                 <ul class="menu-list">
                   <li class="menu-list-item">
@@ -39,8 +41,8 @@
             </h1>
         </div>
     </header>
-    <main class="content">
-        <section class="articles">
+    <div class="content">
+        <main class="articles">
             <article class="article">
                 <img class="article-image" src="https://netology-code.github.io/html-2-diploma/sources/images/last-post1.jpg" alt="Man on the beach">
                 <div class="article-desc">
@@ -61,9 +63,9 @@
                         <span class="article-date">June 14, 2015</span>
                         <span class="article-author">By Author Doe</span>
                     </div>
-                    <div class="article-short">
+                    <p class="article-short">
                         Once upon a time, in an age before the Internet, the only way to meet people was to leave your home and interact with humanity.
-                    </div>
+                    </p>
                 </div>
             </article>
             <article class="article">
@@ -81,9 +83,9 @@
                         <span class="article-date">June 14, 2015</span>
                         <span class="article-author">By Author Doe</span>
                     </div>
-                    <div class="article-short">
+                    <p class="article-short">
                         If you're shy about going out alone, bring a book or a journal at first, and take small steps to get comfortable with the feeling.
-                    </div>
+                    </p>
                 </div>
             </article>
             <article class="article">
@@ -101,9 +103,9 @@
                         <span class="article-date">June 14, 2015</span>
                         <span class="article-author">By Author Doe</span>
                     </div>
-                    <div class="article-short">
+                    <p class="article-short">
                         Once upon a time, in an age before the Internet, the only way to meet people was to leave your home and interact with humanity.
-                    </div>
+                    </p>
                 </div>
             </article>
             <article class="article">
@@ -121,9 +123,9 @@
                         <span class="article-date">June 14, 2015</span>
                         <span class="article-author">By Author Doe</span>
                     </div>
-                    <div class="article-short">
+                    <p class="article-short">
                         Considering how long the human race existed before online dating, it looks like meeting people in real life was really working for them.
-                    </div>
+                    </p>
                 </div>
             </article>
             <article class="article">
@@ -144,9 +146,9 @@
                         <span class="article-date">June 14, 2015</span>
                         <span class="article-author">By Author Doe</span>
                     </div>
-                    <div class="article-short">
+                    <p class="article-short">
                         Once upon a time, in an age before the Internet, the only way to meet people was to leave your home and interact with humanity.
-                    </div>
+                    </p>
                 </div>
             </article>
             <article class="article">
@@ -164,9 +166,9 @@
                         <span class="article-date">June 14, 2015</span>
                         <span class="article-author">By Author Doe</span>
                     </div>
-                    <div class="article-short">
+                    <p class="article-short">
                         Considering how long the human race existed before online dating, it looks like meeting people in real life was really working for them.
-                    </div>
+                    </p>
                 </div>
             </article>
             <article class="article">
@@ -184,14 +186,14 @@
                         <span class="article-date">June 14, 2015</span>
                         <span class="article-author">By Author Doe</span>
                     </div>
-                    <div class="article-short">
+                    <p class="article-short">
                         Once upon a time, in an age before the Internet, the only way to meet people was to leave your home and interact with humanity.
-                    </div>
+                    </p>
                 </div>
             </article>
-        </section>
-        <section class="sidebar">
-            <aside class="sidebar-container">
+        </main>
+        <aside class="sidebar">
+            <section class="sidebar-container">
                 <h2 class="sidebar-title">Recent Posts</h2>
                 <div class="sidebar-payload">
                     <ol class="recent-posts">
@@ -242,8 +244,8 @@
                         </li>
                     </ol>
                 </div>
-            </aside>
-            <aside class="sidebar-container fs0">
+            </section>
+            <section class="sidebar-container fs0">
                 <div class="sidebar-payload">
                     <form action="#">
                         <label class="visually-hidden" for="search_field">Enter text to search on this site (required field)</label>
@@ -251,8 +253,8 @@
                         <button class="btn btn-search" type="submit" title="Search"></button>
                     </form>
                 </div>
-            </aside>
-            <aside class="sidebar-container">
+            </section>
+            <section class="sidebar-container">
                 <h2 class="sidebar-title">Newsletter</h2>
                 <div class="sidebar-payload">
                     <form action="#">
@@ -261,8 +263,8 @@
                         <button class="btn btn-subscribe" type="submit" title="Subscribe">Subscribe</button>
                     </form>
                 </div>
-            </aside>
-            <aside class="sidebar-container">
+            </section>
+            <section class="sidebar-container">
                 <h2 class="sidebar-title">Tags</h2>
                 <div class="sidebar-payload">
                     <ul class="tags">
@@ -292,8 +294,8 @@
                         </li>
                     </ul>
                 </div>
-            </aside>
-            <aside class="sidebar-container">
+            </section>
+            <section class="sidebar-container">
                 <h2 class="sidebar-title">Categories</h2>
                 <div class="sidebar-payload">
                     <ul class="categories">
@@ -317,50 +319,35 @@
                         </li>
                     </ul>
                 </div>
-            </aside>
-        </section>
-    </main>
+            </section>
+        </aside>
+    </div>
     <footer class="footer">
         <address class="social-container">
             <ul class="social-list">
                 <li class="social-item">
                     <a href="#">
-                        <figure>
-                            <img src="https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg" alt="twitter" title="Follow us on Twitter"/>
-                            <figcaption class="visually-hidden">Follow us on Twitter</figcaption>
-                        </figure>
+                        <img src="https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg" alt="twitter" title="Follow us on Twitter"/>
                     </a>
                 </li>
                 <li class="social-item">
                     <a href="#">
-                        <figure>
-                            <img src="https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg" alt="pinterest" title="Follow us on Pinterest"/>
-                            <figcaption class="visually-hidden">Follow us on Pinterest</figcaption>
-                        </figure>
+                        <img src="https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg" alt="pinterest" title="Follow us on Pinterest"/>
                     </a>
                 </li>
                 <li class="social-item">
                     <a href="#">
-                        <figure>
-                            <img src="https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg" alt="facebook" title="Follow us on Facebook"/>
-                            <figcaption class="visually-hidden">Follow us on Facebook</figcaption>
-                        </figure>
+                        <img src="https://netology-code.github.io/html-2-diploma/sources/images/social/002-facebook-logo.svg" alt="facebook" title="Follow us on Facebook"/>
                     </a>
                 </li>
                 <li class="social-item">
                     <a href="#">
-                        <figure>
-                            <img src="https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg" alt="instagram" title="Follow us on Instagram"/>
-                            <figcaption class="visually-hidden">Follow us on Instagram</figcaption>
-                        </figure>
+                        <img src="https://netology-code.github.io/html-2-diploma/sources/images/social/005-instagram.svg" alt="instagram" title="Follow us on Instagram"/>
                     </a>
                 </li>
                 <li class="social-item">
                     <a href="#">
-                        <figure>
-                            <img src="https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg" alt="tumblr" title="Follow us on Tumblr"/>
-                            <figcaption class="visually-hidden">Follow us on Tumblr</figcaption>
-                        </figure>
+                        <img src="https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg" alt="tumblr" title="Follow us on Tumblr"/>
                     </a>
                 </li>
             </ul>
